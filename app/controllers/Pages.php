@@ -2,11 +2,14 @@
 class Pages extends Controller
 {
   public function __construct()
-  { }
+  {
+
+  }
 
   public function index()
   {
-    $data = ['title' => 'Welcome'];
+    $data = ['title' => 'PledovMVC'];
+
     $this->view('pages/index', $data);
   }
 
